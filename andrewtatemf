@@ -1,0 +1,44 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("become a Top G to flex on your childhood bully MENU", "Ocean")
+--main--
+local main = Window:NewTab("All")
+local MainSection = main:NewSection("All")
+MainSection:NewButton("InfiniteMoney", "Money!", function()
+    local A_1 = "MoneyEarned"
+local A_2 = true
+local A_3 = 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+local Event = game:GetService("ReplicatedStorage")["ithb Folder"].Remotes.RemoteEvent
+Event:FireServer(A_1, A_2, A_3)
+end)
+MainSection:NewButton("100 Mil Rebirths", "You need the money for it to work", function()
+    local A_1 = "Rebirth"
+local A_2 = 100000000
+local Event = game:GetService("ReplicatedStorage")["ithb Folder"].Remotes.RemoteFunction
+Event:InvokeServer(A_1, A_2)
+end)
+MainSection:NewSlider("Walkspeed", "speed!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+MainSection:NewSlider("JumpPower", "jump higher!", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+MainSection:NewButton("Spam chat", "", function()
+    local settings = {
+        AutoChat_Time = 1,
+        AutoChat_Delay = 1,
+        AutoChat = true,
+     }
+     
+     local chatrem = game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest
+     
+     while task.wait(settings.AutoChat_Time) do
+         chatrem:FireServer('snoppcancer made this Script!', "All")
+         print("snoppcancer#1230 made this script")
+     end
+end)
+MainSection:NewButton("Scripts made by snoppcancer#1230", "Credits", function()
+    print("snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top ")
+end)
+MainSection:NewButton("UI made by xHeptc", "Credits", function()
+    print("snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top snoppcancer#1230 on top ")
+end)
